@@ -1,2 +1,0 @@
-# GHOST
-PROJEKT9
