@@ -1,0 +1,100 @@
+/*WALED HOSSIN*/
+
+body{
+    font-family: Arial;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.elegant-calencar {
+    width: 25em;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 0 5px #c9c9c9;
+    text-align: center;
+    margin: 4em auto;
+    position: relative;
+}
+
+#header {
+    font-family: Arial;
+    height: 5em;
+    background-color: #2a3246;
+    margin-bottom: 1em;
+}
+
+.pre-button, .next-button {
+    font-size: 3em;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    line-height: 2em;
+    color: #e66b6b;
+    border-radius: 50%;
+}
+
+.pre-button {
+    float: left;
+    margin-left: 0.5em;
+}
+
+.next-button {
+    float: right;
+    margin-right: 0.5em;
+}
+
+.head-info {
+    float: left;
+    width: 16em;
+    line-height: 2em;
+    margin-top: 7px;
+    color: #d9d3d2;
+}
+
+#calendar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#calendar tr {
+    line-height: 2em;
+}
+
+thead tr {
+    color: #e66b6b;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    color: #252a25;
+}
+
+tbody td{
+    width: 14%;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition:all 0.2s ease-in;
+    transition:all 0.2s ease-in;
+}
+
+tbody td:hover, .selected {
+    color: #fff;
+    background-color: #2a3246;
+    border: none;
+}
+
+#today {
+    background-color: #e66b6b;
+    color: #fff;
+    font-family: serif;
+    border-radius: 50%;
+}
+/*WALED HOSSIN*/
